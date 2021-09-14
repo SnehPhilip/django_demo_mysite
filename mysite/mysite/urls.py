@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-# path to default admin
+# path to default admin page
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ]
